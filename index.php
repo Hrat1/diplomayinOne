@@ -11,6 +11,9 @@
 </head>
 <body>
 <?php include_once("header.php")?>
+<div class="imageWrapper">
+    <img src="https://cdn.pixabay.com/photo/2015/11/05/08/21/geometry-1023846_1280.jpg" alt="Homepage image">
+</div>
 
 <script src="bootstrap/js/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>

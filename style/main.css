@@ -1,3 +1,63 @@
 body{
     height: 1500px;
 }
+/*/////////*/
+/*public page header*/
+/*//////*/
+.bg-dark {
+    background-color: #343a40d9!important;
+}
+.signInLink>a {
+    color: #1e7e34!important;
+}
+.signInLink>a:hover{
+    color: white!important;
+}
+.signUpLink{
+    background-color: #1e7e34;
+    border-radius: 5px;
+    height: 30px;
+    /*padding: 2px 12px 2px 12px;*/
+    margin-top: 5px;
+    /*padding: 3px 5px 3px 5px;*/
+}
+.signUpLink:hover{
+    background-color: #1c7430;
+
+}
+
+.signUpLink>a{
+    /*padding: 0!important;*/
+    color: #e3e3e3 !important;
+    padding: 2px 14px 2px 14px!important;
+
+}
+.imageWrapper>img {
+    width: 100%;
+}
+/*///////////////////////////////*/
+/*media rules for responsive page*/
+/*////////////////////////*/
+@media only screen and (max-width: 992px) {
+    .navbarRight {
+        display: block!important;
+        flex-basis: auto;
+        flex-grow: 0;
+    }
+    .navbarRight>ul{
+        display: block;
+    }
+    .navbarRight>ul>li{
+        float: left;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .hideOnPhone {
+        display: none;
+    }
+    .navbarRight {
+        width: 156px;
+    }
+}
