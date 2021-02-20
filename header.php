@@ -1,4 +1,4 @@
-<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
     <div class="container-fluid">
         <a href="#" class="navbar-brand">My website</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -6,17 +6,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
-                <li clas="navbar-item">
-                    <a href="#" class="nav-link">Homepage</a>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">Home</a>
                 </li>
-                <li clas="navbar-item">
-                    <a href="#" class="nav-link">Blog</a>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">About Us</a>
                 </li>
-                <li clas="navbar-item">
-                    <a href="#" class="nav-link">About</a>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">Contact Us</a>
                 </li>
-                <li clas="navbar-item">
-                    <a href="#" class="nav-link">Contact</a>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">SignIn</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">SignUp</a>
                 </li>
             </ul>
         </div>
