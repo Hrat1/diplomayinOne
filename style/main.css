@@ -1,5 +1,6 @@
-body{
+html,body{
     overflow-x: hidden;
+     height: 100%;
 }
 /*/////////*/
 /*public page header*/
@@ -90,6 +91,9 @@ body{
     .navbarRight {
         width: 156px;
     }
+    html,body{
+        height: auto;
+    }
 }
 
 @media only screen and (min-width: 800px) {
@@ -119,11 +123,8 @@ body{
     }
 }
 
-/*login*/
 
-html,body {
-    height: 100%;
-}
+/*SignIn and SignUp*/
 
 .global-container{
     height:100%;
@@ -161,4 +162,7 @@ form{
     margin-bottom:-30px;
     font-size: 13px;
     margin-top:20px;
+}
+.secondOptionDiv{
+    float: right;
 }

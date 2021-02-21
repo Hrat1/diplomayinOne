@@ -17,7 +17,7 @@
                     <a href="signin.php" class="nav-link">SignIn</a>
                 </li>
                 <li class="navbar-item signUpLink">
-                    <a href="#" class="nav-link">SignUp</a>
+                    <a href="signup.php" class="nav-link">SignUp</a>
                 </li>
             </ul>
         </div>
