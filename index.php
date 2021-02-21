@@ -12,7 +12,14 @@
 <body>
 <?php include_once("header.php")?>
 <div class="imageWrapper">
-    <img src="https://cdn.pixabay.com/photo/2015/11/05/08/21/geometry-1023846_1280.jpg" alt="Homepage image">
+    <div class="container-fluid">
+        <h2 class="card-subtitle">
+            ԼԵԶՈՒՆԵՐԻ ՕՆԼԱՅՆ ՈՒՍՈՒՑՈՒՄ SKYPE-Ի ՄԻՋՈՑՈՎ
+            <p>Սովորեք լավագույն մասնագետների հետ,Ձեր նախընտրած վայրից, Ձեզ հարմար ժամանակ</p>
+        </h2>
+
+    </div>
+<!--    <img src="https://cdn.pixabay.com/photo/2015/11/05/08/21/geometry-1023846_1280.jpg" alt="Homepage image">-->
 </div>
 
 <script src="bootstrap/js/jquery.min.js"></script>

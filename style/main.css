@@ -1,5 +1,6 @@
 body{
     height: 1500px;
+    overflow-x: hidden;
 }
 /*/////////*/
 /*public page header*/
@@ -25,19 +26,79 @@ body{
     background-color: #1c7430;
 
 }
-
 .signUpLink>a{
     /*padding: 0!important;*/
     color: #e3e3e3 !important;
     padding: 2px 14px 2px 14px!important;
 
 }
-.imageWrapper>img {
+
+/*imdex*/
+/*////////////*/
+.imageWrapper{
     width: 100%;
+    background: url("https://cdn.pixabay.com/photo/2015/11/05/08/21/geometry-1023846_1280.jpg") no-repeat;
+    background-position: center top;
 }
+.imageWrapper>div{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #1d21248f;
+}
+.imageWrapper>div>h2{
+    color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.imageWrapper>div>h2>p{
+    font-size: 15px;
+    width: 418px;
+    margin: 16px auto;
+}
+
+/*.imageWrapper>img {*/
+/*    height: -webkit-fit-content;*/
+/*    width: -webkit-fill-available;*/
+/*}*/
+
+
 /*///////////////////////////////*/
 /*media rules for responsive page*/
 /*////////////////////////*/
+@media only screen and (max-width: 470px){
+    .imageWrapper>div>h2>p {
+        width: auto;
+        font-size: 12px;
+    }
+    .imageWrapper>div>h2 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .imageWrapper>div>h2 {
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .hideOnPhone {
+        display: none;
+    }
+    .navbarRight {
+        width: 156px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .imageWrapper>div>h2{
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+}
 @media only screen and (max-width: 992px) {
     .navbarRight {
         display: block!important;
@@ -53,11 +114,8 @@ body{
         margin-right: 7px;
     }
 }
-@media only screen and (max-width: 700px) {
-    .hideOnPhone {
-        display: none;
-    }
-    .navbarRight {
-        width: 156px;
+@media only screen and (min-width: 1100px){
+    .imageWrapper{
+        background-size: 100% auto;
     }
 }
