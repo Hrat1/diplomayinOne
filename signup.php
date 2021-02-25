@@ -7,7 +7,6 @@ if (isset($_POST["submit"])){
         echo "Hi, I'm a student";
     }
 }
-
 ?>
 
 <!doctype html>
