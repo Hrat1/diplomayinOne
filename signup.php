@@ -1,3 +1,15 @@
+<?php
+if (isset($_POST["submit"])){
+    $whoIAm = $_POST["inlineRadioOptions"];
+    if($whoIAm == "option1"){
+        echo "I'm a teacher";
+    }else{
+        echo "Hi, I'm a student";
+    }
+}
+
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -17,15 +29,15 @@
             <div class="card-text">
                 <!--
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">Incorrect username or password.</div> -->
-                <form>
+                <form method="post">
                     <!-- to error: add class "has-danger" -->
                     <div class="form-group">
                         <label for="exampleInputFirstname" >First Name</label>
-                        <input type="text" class="form-control form-control-sm" id="exampleInputFirstname" minlength="2" required>
+                        <input type="text" name="firstname" class="form-control form-control-sm" id="exampleInputFirstname" minlength="2" required>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputLastname">Last Name</label>
-                        <input type="text" class="form-control form-control-sm" id="exampleInputLastname" minlength="2" required>
+                        <input type="text" name="lastname" class="form-control form-control-sm" id="exampleInputLastname" minlength="2" required>
                     </div>
                     <div class="form-group">
 <!--                        <label for="exampleSelectWhoIAm">I am a:</label>-->
@@ -41,13 +53,13 @@
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                        <input type="email" name="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control form-control-sm" id="exampleInputPassword1" required>
+                        <input type="password" name="password" class="form-control form-control-sm" id="exampleInputPassword1" required>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-block">Sign up</button>
+                    <button type="submit" name="submit" class="btn btn-primary btn-block">Sign up</button>
 
                     <div class="sign-up">
                         Already have account? <a href="signin.php">Sign In</a>
